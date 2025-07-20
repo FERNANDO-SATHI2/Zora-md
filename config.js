@@ -5,6 +5,6 @@ function convertToBool(text, fault = 'true') {
   return text === fault ? true : false;
 };
 module.exports = {
-  SESSION_ID: process.env.SESSION_ID || "", // SESSION_ID is required to start the bot. It must begin with 'ZORA~', Example: ZORA~youruniquesessionid
-  MONGODB: process.env.MONGODB || ""   // MONGODB URL is optional. Add it only if you have a valid MongoDB URI. If you don't have one, leave it empty. Do NOT insert invalid URLs – the bot won't start !!
+  SESSION_ID: process.env.SESSION_ID || "‍ZORA~JEAWjRKJ#P8rAjw7fqDntfiKzTVfuTPrKtNrhzs6uOtdYEZfDEXA", // SESSION_ID is required to start the bot. It must begin with 'ZORA~', Example: ZORA~youruniquesessionid
+  MONGODB: process.env.MONGODB || "mongodb+srv://corey18681:MwlnVGkVf9xQW7LR@alfadbb.0yf7tyc.mongodb.net/"   // MONGODB URL is optional. Add it only if you have a valid MongoDB URI. If you don't have one, leave it empty. Do NOT insert invalid URLs – the bot won't start !!
 };
